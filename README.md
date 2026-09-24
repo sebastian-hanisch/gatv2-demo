@@ -1,5 +1,7 @@
 # 🔍 GATv2 – Aufmerksamkeit, die vom Fragenden abhängt
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-gatv2-demo.streamlit.app/)**
+
 Drittes Stück der **Graph-Neural-Network-Linie** der "Konzepte"-Reihe im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning – und Nachfolger von
 [gat-demo](https://sebastianhanisch-gat-demo.streamlit.app/) (GCN → GraphSAGE, GAT → GATv2, GIN → Graph Transformer; GraphSAGE, GIN und Graph Transformer sind noch nicht gebaut).
 
