@@ -3,7 +3,7 @@
 **[→ Demo live ausprobieren](https://sebastianhanisch-gatv2-demo.streamlit.app/)**
 
 Drittes Stück der **Graph-Neural-Network-Linie** der "Konzepte"-Reihe im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning – und Nachfolger von
-[gat-demo](https://sebastianhanisch-gat-demo.streamlit.app/) (GCN → GraphSAGE, GAT → GATv2, GIN → Graph Transformer; GraphSAGE, GIN und Graph Transformer sind noch nicht gebaut).
+[gat-demo](https://sebastianhanisch-gat-demo.streamlit.app/) (GCN → GraphSAGE, GAT → GATv2, GIN → Graph Transformer; GraphSAGE, GIN und Graph Transformer sind inzwischen gebaut).
 
 Im Vorgänger lernte ein **GAT**, welche Nachbarn wichtig sind – aber jeder Kunde ordnet seine Nachbarn **in derselben Reihenfolge**: die Bewertung ist eine Summe aus einem Anteil des Fragenden und einem des Nachbarn
 ("statische Aufmerksamkeit"). **GATv2** (Brody/Alon/Yahav 2022) rechnet $a\cdot\mathrm{LeakyReLU}(W_l h_i + W_r h_j)$: die Nichtlinearität steht **vor** dem Skalarprodukt, die Rangfolge darf vom Fragenden abhängen.
@@ -99,3 +99,7 @@ streamlit run app.py
 ```
 
 Gebaut mit Streamlit, Plotly und numpy.
+
+---
+
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Graph Neural Networks: vom GCN zum Transformer](https://sebastianhanisch.net/konzepte-graph-neural-networks.html).

@@ -226,7 +226,7 @@ st.markdown(
 | **Erzeugte Daten, wenige Seeds** | Die Lager-Suche ist ein synthetischer Prüfstein; die Experimente mitteln über 3 (Lager) bzw. 8 (Gebiet) Seeds, die Standardfehler sind groß. | – |
 """
 )
-st.caption("Die Linie: GCN → GraphSAGE, GAT → GATv2, GIN → Graph Transformer (GraphSAGE, GIN und Graph Transformer noch nicht gebaut).")
+st.caption("Die Linie: GCN → GraphSAGE, GAT → GATv2, GIN → Graph Transformer (alle Stücke der Linie sind gebaut: graphsage-demo, gin-demo, graph-transformer-demo).")
 
 st.markdown("---")
 
@@ -255,6 +255,6 @@ Implementiert in `g2_algorithm.py` (Kantenlisten, Schichten, Adam), `g2_scenario
 st.markdown("---")
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
-    "Operations Research und Machine Learning. Interesse an einer maßgeschneiderten Lösung für "
-    "Ihr Unternehmen? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html)"
+    "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
+    "Mehr zur Reihe: [Graph Neural Networks: vom GCN zum Transformer](https://sebastianhanisch.net/konzepte-graph-neural-networks.html)."
 )
